@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+        <title>Document</title>
+        <style>
+
+            
+            @media only screen and (max-width: 600px) {
+
+                
+
+            }
+
+            @media only screen and (min-width: 600px) {
+
+               
+
+            }
+
+            @media only screen and (min-width: 768px) and (max-width: 1024px){
+
+               
+
+            }
+
+            @media only screen and (min-width: 820px) and (max-width: 1024px){
+
+                
+
+            } 
+
+            @media only screen and (min-width: 992px) {
+
+                
+
+            } 
+
+            @media only screen and (min-width: 1200px) {
+
+                
+
+            }
+
+            .contact-us-heading {
+                font-family: 'Roboto Condensed';
+                font-style: normal;
+                font-weight: 300;
+                font-size: 40px;
+                line-height: 47px;
+                letter-spacing: 0.2em;
+                text-transform: uppercase;
+                color: #41A53D;
+            }
+
+            .contact-us-paraghic {
+                font-family: 'Roboto Condensed';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 25px;
+                line-height: 29px;
+                color: #000000;
+                margin-bottom: 4%;
+            }
+            
+            .contact-us-icon {
+                font-size: 30px;
+                color: #1CA13A;
+                margin-right: 25px;
+            }
+
+            .contact-us-icon-two {
+                font-size: 30px;
+                color: #1CA13A;
+                margin-right: 20px;
+            }
+
+            .contact-us-text {
+                font-family: 'Roboto Condensed';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 40px;
+                line-height: 47px;
+                color: #000000;
+                margin-bottom: 2%;
+            }
+
+            .contact-us-btn-components {
+                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                border-radius: 100px;
+                font-family: 'Roboto Condensed';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 22px;
+                line-height: 26px;
+                text-align: center;
+                color: #FFFFFF;
+                padding: 20px 50px 20px 50px;
+                
+            }
+
+            .contact-us-btn-components-color {
+                background: #1CA13A;
+                border-color: #1CA13A;
+            }
+
+            .contact-us-btn-components-color:hover {
+                opacity: 0.9;
+                background: #1CA13A;
+                border-color: #1CA13A;
+            }
+
+            .contact-us-btn-components-display-flex {
+                width: 100%;
+                display: flex;
+                flex-wrap: nowrap;
+                align-content: space-between;
+                justify-content: center;
+                margin-top: 2%;
+                margin-bottom: 2%;
+                margin-left: 0px;
+                margin-right: 0px;
+            }
+
+            .contact-us-btn-components-display-width {
+                width: 45%;
+            }
+
+            .contact-us-space-div {
+                margin-top: 6%;
+                margin-bottom: 6%;
+            }
+
+            .contact-us-heading-input {
+                background: #F3F3F3;
+                border: 2px solid #3E9D2B;
+                border-radius: 16px;
+                font-family: 'Roboto Condensed';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 19px;
+                line-height: 19px;
+                text-align: left;
+                color: #979797;
+                padding: 15px;
+                width: 100%;
+                padding-top: 16px;
+                padding-bottom: 13px;
+            }
+
+            .contact-us-heading-border-top-left-radius {
+                border-top-left-radius: 0px;
+                border-bottom-left-radius: 0px;
+            }
+
+            .contact-us-section-button-components-title-row-col {
+                background: linear-gradient(270deg, #41A52D 3.88%, #21941F 56.85%);
+                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                border-radius: 100px;
+                font-family: 'Roboto Condensed';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 22px;
+                line-height: 26px;
+                text-align: center;
+                color: #FFFFFF;
+                padding: 20px 50px 20px 50px;
+                border-color: #41A52D;
+            }
+
+            .contact-us-section-button-components-title-row-col:hover {
+                background: linear-gradient(270deg, #41A52D 3.88%, #21941F 56.85%);
+                border-color: #41A52D;
+                opacity: 0.9;
+            }
+
+            .contact-us-section-button-label {
+                font-family: 'Roboto Condensed';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 23px;
+                color: #464646;
+                margin-bottom: 3%;
+            }
+
+            .contact-us-section-button-label-two {
+                font-family: 'Roboto Condensed';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 23px;
+                color: #464646;
+                margin-bottom: 2%;
+            }
+
+            .contact-us-section-button-span {
+                color: #ff0000;
+            }
+
+            .contact-us-section-button-flex-column {
+                display: flex;
+                flex-direction: column;
+            }
+
+            .contact-us-section-button-margin-bottom {
+                margin-left: 0px;
+                margin-right: 0px;
+                margin-bottom: 3%;
+            }
+
+            .contact-us-section-div-button { 
+                background: #E6F5E5;
+                border-radius: 20px;
+                padding: 40px;
+            }
+
+            .contact-us-section-button-heading-bottom {
+                font-family: 'Roboto Condensed';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 45px;
+                line-height: 53px;
+                color: #41A53D;
+                margin-bottom: 20px;
+                margin-left: 10px;
+            }
+
+            .contact-us-heading-select {
+                background-color: #F3F3F3;
+                border: 2px solid #3E9D2B;
+                border-radius: 16px;
+                font-family: 'Roboto Condensed';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 19px;
+                line-height: 19px;
+                text-align: left;
+                color: #979797;
+                padding: 15px;
+                width: 100%;
+                padding-top: 16px;
+                padding-bottom: 16px;
+                background-repeat: no-repeat;
+                background-position: right 0.75rem center;
+                background-size: 16px 12px;
+                display: block;
+                appearance: none;
+            }
+
+            .custom-select {
+                position: relative;
+                font-family: Arial;
+            }
+
+            .custom-select select {
+                display: none;
+            }
+
+            .select-selected {
+                background-color: DodgerBlue;
+            }
+
+            .select-selected:after {
+                position: absolute;
+                content: "";
+                top: 25px;
+                right: 10px;
+                width: 0;
+                height: 0;
+                border: 8px solid transparent;
+                border-color: #ffffff transparent transparent transparent;
+            }
+
+            .select-selected.select-arrow-active:after {
+                border-color: transparent transparent #ffffff transparent;
+                top: 16px;
+            }
+
+            .select-items div,.select-selected {
+                background-color: #F3F3F3;
+                border: 0px solid #3E9D2B;
+                border-radius: 0px;
+                font-family: 'Roboto Condensed';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 19px;
+                line-height: 16px;
+                text-align: left;
+                color: #979797;
+                padding: 16px;
+                width: 100%;
+                padding-top: 16px;
+                padding-bottom: 16px;
+                background-repeat: no-repeat;
+                background-position: right 0.75rem center;
+                background-size: 16px 12px;
+                display: block;
+                appearance: none;
+                border-bottom: 2px solid #3E9D2B;
+                border-top-left-radius: 16px;
+                border-top-right-radius: 16px
+            }
+
+            .select-items , .select-selected {
+                background-color: #3E9D2B;
+                border: 2px solid #3E9D2B;
+                border-radius: 16px;
+                font-family: 'Roboto Condensed';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 19px;
+                line-height: 19px;
+                text-align: left;
+                color: #ffffff;
+                padding: 15px;
+                width: 100%;
+                padding-top: 16px;
+                padding-bottom: 16px;
+                background-repeat: no-repeat;
+                background-position: right 0.75rem center;
+                background-size: 16px 12px;
+                display: block;
+                appearance: none;
+            }
+
+            .select-arrow-active {
+                border-bottom-left-radius: 0px;
+                border-bottom-right-radius: 0px;
+            }
+
+            .select-items {
+                position: absolute;
+                background-color: #F3F3F3;
+                border: 2px solid #3E9D2B;
+                border-radius: 16px;
+                font-family: 'Roboto Condensed';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 19px;
+                line-height: 19px;
+                text-align: left;
+                color: #979797;
+                padding: 0px;
+                width: 100%;
+                padding-top: 0px;
+                padding-bottom: 16px;
+                background-repeat: no-repeat;
+                background-position: right 0.75rem center;
+                background-size: 16px 12px;
+                display: block;
+                appearance: none;
+                border-top-left-radius: 0px;
+                border-top-right-radius: 0px;
+                z-index: 99999999999;
+            }
+
+            .select-hide {
+                display: none;
+            }
+
+            .select-items div:hover, .same-as-selected {
+                background-color: rgba(0, 0, 0, 0.1);
+                border-top-left-radius: 0px;
+                border-top-right-radius: 0px;
+            }
+
+            .select-items-width {
+                width:100%;
+            }
+
+            .select-items-flex-display {
+                display: flex;
+            }
+
+            .select-items-flex-display-width-20 {
+                width: 20%;
+            }
+
+            .select-items-flex-display-width-80 {
+                width: 80%;
+            }
+
+            .custom-select-check {
+                position: relative;
+                font-family: Arial;
+            }
+
+            .custom-select-check select {
+                display: none;
+            }
+
+            .select-check-selected {
+                background-color: DodgerBlue;
+            }
+
+            .select-check-selected:after {
+                position: absolute;
+                content: "";
+                top: 25px;
+                right: 10px;
+                width: 0;
+                height: 0;
+                border: 8px solid transparent;
+                border-color: #ffffff transparent transparent transparent;
+            }
+
+            .select-check-selected.select-check-arrow-active:after {
+                border-color: transparent transparent #ffffff transparent;
+                top: 16px;
+            }
+
+            .select-check-items div,.select-check-selected {
+                background-color: #F3F3F3;
+                border: 0px solid #3E9D2B;
+                border-radius: 0px;
+                font-family: 'Roboto Condensed';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 19px;
+                line-height: 16px;
+                text-align: left;
+                color: #979797;
+                padding: 16px;
+                width: 100%;
+                padding-top: 16px;
+                padding-bottom: 16px;
+                background-repeat: no-repeat;
+                background-position: right 0.75rem center;
+                background-size: 16px 12px;
+                display: block;
+                appearance: none;
+                border-bottom: 2px solid #3E9D2B;
+                border-top-left-radius: 16px;
+                border-top-right-radius: 16px
+            }
+
+            .select-check-items , .select-check-selected {
+                background-color: #3E9D2B;
+                border: 2px solid #3E9D2B;
+                border-radius: 16px;
+                font-family: 'Roboto Condensed';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 19px;
+                line-height: 19px;
+                text-align: left;
+                color: #ffffff;
+                padding: 15px;
+                width: 100%;
+                padding-top: 16px;
+                padding-bottom: 16px;
+                background-repeat: no-repeat;
+                background-position: right 0.75rem center;
+                background-size: 16px 12px;
+                display: block;
+                appearance: none;
+                border-top-right-radius: 0px;
+                border-bottom-right-radius: 0px;
+                
+            }
+
+            .select-check-arrow-active {
+                border-bottom-left-radius: 0px;
+            }
+
+            .select-check-items {
+                position: absolute;
+                background-color: #F3F3F3;
+                border: 2px solid #3E9D2B;
+                border-radius: 16px;
+                font-family: 'Roboto Condensed';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 19px;
+                line-height: 19px;
+                text-align: left;
+                color: #979797;
+                padding: 0px;
+                width: 100%;
+                padding-top: 0px;
+                padding-bottom: 16px;
+                background-repeat: no-repeat;
+                background-position: right 0.75rem center;
+                background-size: 16px 12px;
+                display: block;
+                appearance: none;
+                border-top-right-radius: 0px;
+                border-top-left-radius: 0px;
+                z-index: 99999999999;
+            }
+
+            .select-check-hide {
+                display: none;
+            }
+
+            .select-check-items div:hover, .same-as-check-selected {
+                background-color: rgba(0, 0, 0, 0.1);
+                border-top-left-radius: 0px;
+                border-top-right-radius: 0px;
+            }
+
+            .select-check-items-width {
+                width:100%;
+            }
+
+            .select-check-items-flex-display {
+                display: flex;
+            }
+
+            .select-check-items-flex-display-width-20 {
+                width: 20%;
+            }
+
+            .select-check-items-flex-display-width-80 {
+                width: 80%;
+            }
+
+            .contact-us-button-icon {
+                margin-right: 4px;
+                font-size: 22px;
+            }
+
+            /* Add */
+            .faq-us-heading {
+                font-family: 'Roboto Condensed';
+                font-style: normal;
+                font-weight: 300;
+                font-size: 40px;
+                line-height: 47px;
+                letter-spacing: 0.2em;
+                color: #41A53D;
+            }
+
+            .faq-us-btn-components-display-width-two {
+                width: 90%;
+            }
+
+        </style>
+    </head>     
+    <body>
+        <section>
+            <div class="container-fluid home-default-padding">
+                <div class="row contact-us-btn-components-display-flex">
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 faq-us-btn-components-display-width-two">
+                        <h1 class="faq-us-heading">FREQUENTLY ASKED QUESTIONS</h1>
+                        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Home</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Profile</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Contact</button>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="pills-tabContent">
+                            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">.sdfsdf..</div>
+                            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">..hfgh.</div>
+                            <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">..45345.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
